@@ -130,3 +130,20 @@ html {
     </div>
   </div>
 </div>
+     <p>Pas de commentaires autorisés sur ce site </p>
+
+<p><button onclick="myFunction()">Click Me</button></p>
+
+<div id="myDIV">Hello</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "pas de commentaires") {
+    x.innerHTML = "pas d'insultes!";
+  } else {
+    x.innerHTML = "Hello";
+  }
+}
+</script>
+
